@@ -1,0 +1,23 @@
+{
+    "name": "carlwuensche/am-api",
+    "description": "This is a plugin to retrieve API data and display it from a shortcode in the frontend.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Carl Wuensche",
+            "email": "carl@wuensche.ca"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [],
+        "psr-4": {
+	  "CarlWuensche\\": "",
+	  "CarlWuensche\\AMAPI\\": "src/"
+	}
+    },
+    "require-dev": {
+        "vimeo/psalm": "^3.12",
+        "giacocorsiglia/wordpress-stubs": "^5.1"
+    }
+}
